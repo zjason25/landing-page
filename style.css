@@ -49,7 +49,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 0;
+  padding: 70px 0;
 }
 
 .container-hero,
@@ -105,7 +105,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 70px 0;
 }
 
 .title {
@@ -139,7 +139,7 @@ button {
   display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
-  padding: 50px 0;
+  padding: 70px 0;
   justify-content: center;
   align-items: center;
 }
@@ -155,4 +155,34 @@ button {
   font-weight: bold;
   font-size: 18px;
   padding-left: 400px;
+}
+
+/* modal */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.window {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 30px 50px;
+  border-radius: 12px;
+  width: 750px;
+}
+
+.left {
+  color: white;
+}
+
+.modal-header {
+  font-weight: bold;
+}
+
+button.sign-up {
+  border: 2px solid white;
 }
