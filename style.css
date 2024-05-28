@@ -186,3 +186,13 @@ button {
 button.sign-up {
   border: 2px solid white;
 }
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
